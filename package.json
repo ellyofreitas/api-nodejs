@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Testando",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ellyofreitas/server-nodejs.git"
+  },
+  "author": "Ellyo Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellyofreitas/server-nodejs/issues"
+  },
+  "homepage": "https://github.com/ellyofreitas/server-nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.9"
+  }
+}
